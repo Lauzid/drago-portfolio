@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: Cinzel, sans-serif;
+    display: flexbox;
+    text-align: center;
+    background-color: #262929;
+    color: #d6d6d6;
+    padding-top: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.division {
+  padding: 25px 0px;
+}
+
+/* HEADER  */
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  background-color: #1a1a1a;
+  border-bottom: 2px solid #4e5555;
+  font-size: 1.3rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+
+.nav-links a {
+  color: #d6d6d6;
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #4e5555;
+}
+
+/* CONTAINER */
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  margin: 0 auto;
+  margin: 0px 120px;
+}
+
+/* PRESENTATION */
+
+.presentation {
+  height: auto;
+  width: auto;
+  text-align: center;
+  color: #d6d6d6;
+  border-bottom: 2px solid #4e5555;
+}
+
+.presentation img {
+  height: 300px;
+  width: auto;
+  border: solid 4px #1a1a1a;
+  border-radius: 2px;
+}
+
+.presentation-content {
+  height: auto;
+  max-width: 600px;
+  justify-self: center;
+  border: solid 4px #1a1a1a;
+  padding: 20px 10px;
+}
+
+.presentation-content p {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.presentation span {
+  color: #bfbfbf;
+}
+
+/* GALLERY */
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 2px solid #4e5555;
+}
+
+.gallery-img.small {
+  height: 300px;
+}
+
+.gallery-img.medium {
+  height: 500px;
+}
+
+.gallery-img.large {
+  height: 500px;
+}
+
+/* CONTACT */
+
+.contact {
+  height: auto;
+  width: auto;
+  text-align: center;
+  color: #d6d6d6;
+  border-bottom: 2px solid #4e5555;
+}
+
+.contact h1 {
+  margin-bottom: 25px;
+}
+
+.contact p {
+  margin-bottom: 40px;
+}
+
+/* FOOTER */
+
+footer p {
+  margin: 30px 0px;
+}
